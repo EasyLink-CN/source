@@ -184,8 +184,9 @@ get_status_led() {
 		status_led="$board:green:ds4"
 		;;
 	el-mini|\
-	el-m150)
-		status_led="easylink:green:system"
+	el-m150|\
+	el-m300)
+		status_led="$board:green:system"
 		;;
 	ew-dorin|\
 	ew-dorin-router)

@@ -163,6 +163,9 @@ tplink_board_detect() {
 	"015000"*)
 		model="EasyLink EL-M150"
 		;;
+	"030000"*)
+		model="EasyLink EL-M300"
+		;;
 	"015300"*)
 		model="EasyLink EL-MINI"
 		;;
@@ -618,6 +621,9 @@ ar71xx_board_detect() {
 		;;
 	*"EL-M150")
 		name="el-m150"
+		;;
+	*EL-M300)
+		name="el-m300"
 		;;
 	*"EL-MINI")
 		name="el-mini"

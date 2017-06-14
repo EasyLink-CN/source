@@ -471,6 +471,16 @@ define Device/el-m150
   CONSOLE := ttyATH0,115200
 endef
 
+define Device/el-m300
+  $(Device/tplink-16mlzma)
+  DEVICE_TITLE := EasyLink EL-M300
+  DEVICE_PACKAGES := kmod-usb-core kmod-usb2
+  BOARDNAME := EL-M300
+  DEVICE_PROFILE := ELM300
+  TPLINK_HWID := 0x03000001
+  CONSOLE := ttyS0,115200
+endef
+
 define Device/el-mini
   $(Device/tplink-8mlzma)
   DEVICE_TITLE := EasyLink EL-MINI
@@ -480,7 +490,7 @@ define Device/el-mini
   TPLINK_HWID := 0x01530001
   CONSOLE := ttyATH0,115200
 endef
-TARGET_DEVICES += antminer-s1 antminer-s3 antrouter-r1 el-m150 el-mini
+TARGET_DEVICES += antminer-s1 antminer-s3 antrouter-r1 el-m150 el-m300 el-mini
 
 define Device/gl-inet-6408A-v1
   $(Device/tplink-8mlzma)

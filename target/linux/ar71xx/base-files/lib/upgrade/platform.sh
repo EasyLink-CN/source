@@ -364,6 +364,7 @@ platform_check_image() {
 	archer-c5|\
 	archer-c7|\
 	el-m150|\
+	el-m300|\
 	el-mini|\
 	gl-inet|\
 	mc-mac1200r|\

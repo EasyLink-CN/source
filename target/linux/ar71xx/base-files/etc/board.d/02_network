@@ -24,6 +24,7 @@ ar71xx_setup_interfaces()
 	dir-615-c1|\
 	dir-615-e1|\
 	dir-615-e4|\
+	el-m300|\
 	hiwifi-hc6361|\
 	ja76pf|\
 	mc-mac1200r|\

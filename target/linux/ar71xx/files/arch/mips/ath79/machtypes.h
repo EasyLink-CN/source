@@ -89,6 +89,7 @@ enum ath79_mach_type {
 	ATH79_MACH_EAP300V2,			/* EnGenius EAP300 v2 */
 	ATH79_MACH_EAP7660D,			/* Senao EAP7660D */
 	ATH79_MACH_EL_M150,			/* EasyLink EL-M150 */
+	ATH79_MACH_EL_M300,			/* EasyLink EL-M300 */
 	ATH79_MACH_EL_MINI,			/* EasyLink EL-MINI */
 	ATH79_MACH_EPG5000,			/* EnGenius EPG5000 */
 	ATH79_MACH_ESR1750,			/* EnGenius ESR1750 */
